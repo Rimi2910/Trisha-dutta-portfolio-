@@ -1,2 +1,193 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trisha Dutta | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #fce3ec, #f9fafe);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .typewriter-text::after {
+      content: '|';
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1 }
+      50% { opacity: 0 }
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white/80 backdrop-blur-md shadow-md fixed w-full top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">Trisha Dutta Portfolio</h1>
+      <nav class="space-x-6 text-indigo-700 font-medium">
+        <a href="#home" class="hover:text-pink-500">Home</a>
+        <a href="#about" class="hover:text-pink-500">About</a>
+        <a href="#projects" class="hover:text-pink-500">Projects</a>
+        <a href="#contact" class="hover:text-pink-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-600 to-pink-500 text-white pt-24 px-6">
+    <div class="text-center space-y-6 max-w-2xl" data-aos="fade-up">
+      <img src="https://i.postimg.cc/3RYzx4gS/my-photo.jpg" alt="Trisha Dutta" class="mx-auto w-36 h-36 rounded-full border-4 border-white shadow-xl">
+      <h2 class="text-4xl font-extrabold tracking-wide">Hi, I'm <span class="text-yellow-300">Trisha Dutta</span></h2>
+      <p class="text-xl font-light typewriter-text" id="typewriter"></p>
+      <p class="italic text-lg text-white/90">"Turning innovative ideas into digital reality."</p>
+      <div class="space-x-4">
+        <a href="#projects" class="bg-white text-indigo-700 px-6 py-2 rounded-full font-semibold shadow hover:bg-gray-100 transition-all">View Projects</a>
+        <a href="https://drive.google.com/file/d/11FLTaCqFRzKvzEwg0SWuYgSP1ztgat4c/view?usp=sharing" download class="bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold shadow hover:bg-yellow-500 transition-all">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center" data-aos="fade-up">About Me</h2>
+    <p class="text-center mb-10 text-gray-700 text-lg" data-aos="fade-up" data-aos-delay="50">
+      I'm an Electronics and Communication Engineering student passionate about frontend development, UI/UX design, and emerging tech like memristors. I bring creative thinking and practical skills to every project I work on.
+    </p>
+
+    <div class="mb-16">
+      <h3 class="text-2xl font-semibold mb-4 text-indigo-600" data-aos="fade-right">Key Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" data-aos="fade-up">
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">MATLAB</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">Python</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">C</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">Java</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">HTML & CSS</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">UI/UX Design</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">tailwindcss</div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow text-center">Teamwork</div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="text-2xl font-semibold mb-6 text-indigo-600" data-aos="fade-left">Education</h3>
+      <div class="space-y-6" data-aos="fade-up">
+        <div class="flex flex-col md:flex-row bg-gray-100 p-4 rounded-lg shadow-md">
+          <div class="w-full md:w-1/4 font-semibold text-indigo-700">2022 – 2025</div>
+          <div class="w-full md:w-3/4">
+            <h4 class="text-lg font-semibold">B.Tech in Electronics and Communication Engineering</h4>
+            <p>St. Thomas College of Engineering and Technology, Kolkata</p>
+            <p>CGPA: 7.66</p>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row bg-gray-100 p-4 rounded-lg shadow-md">
+          <div class="w-full md:w-1/4 font-semibold text-indigo-700">2019 – 2022</div>
+          <div class="w-full md:w-3/4">
+            <h4 class="text-lg font-semibold">Diploma in Electronics and Telecommunication Engineering</h4>
+            <p>Women’s Polytechnic, Kolkata</p>
+            <p>OGPA: 8.3</p>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row bg-gray-100 p-4 rounded-lg shadow-md">
+          <div class="w-full md:w-1/4 font-semibold text-indigo-700">2017 – 2019</div>
+          <div class="w-full md:w-3/4">
+            <h4 class="text-lg font-semibold">Higher Secondary Education</h4>
+            <p>Garden Reach Mudiali High School</p>
+            <p>Percentage: 61.6%</p>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row bg-gray-100 p-4 rounded-lg shadow-md">
+          <div class="w-full md:w-1/4 font-semibold text-indigo-700">2017</div>
+          <div class="w-full md:w-3/4">
+            <h4 class="text-lg font-semibold">Madhyamik Examination</h4>
+            <p>Garden Reach Mudiali Girls’ High School</p>
+            <p>Percentage: 63.28%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section with ALU screenshots -->
+  <section id="projects" class="py-20 bg-white px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-10 text-center" data-aos="fade-up">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow" data-aos="fade-right">
+        <h3 class="text-xl font-semibold mb-2">Memristor-Based 4-Bit ALU</h3>
+        <p class="text-gray-700">Built using MAGIC logic, this project analyzes power and delay for different operations using emerging memristive technologies.</p>
+        <div class="grid grid-cols-2 gap-2 mt-4">
+          <a href="https://ibb.co/3mdYt4Ph" target="_blank"><img src="https://i.ibb.co/3mdYt4Ph/screenshot1.png" class="rounded shadow" alt="ALU Screenshot 1"></a>
+          <a href="https://drive.google.com/drive/folders/1D-q0whyD3MDkwoxB-m44froSFDnN-uja?usp=sharing" target="_blank"><img src="https://drive.google.com/drive/folders/1D-q0whyD3MDkwoxB-m44froSFDnN-uja?usp=sharing" class="rounded shadow" alt="ALU Screenshot 2"></a>
+          
+        </div>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow" data-aos="fade-left">
+        <h3 class="text-xl font-semibold mb-2">Student Result Management System</h3>
+        <p class="text-gray-700">Web app to manage results and reports using HTML, CSS, JavaScript and simple backend logic.</p>
+        <a href="https://ibb.co/5hGy59mr" target="_blank">
+          <img src="https://ibb.co/5hGy59mr" alt="Result Management Screenshot" class="mt-4 rounded shadow">
+        </a>
+      </div>
+
+      <div class="bg-gray-100 p-6 rounded-xl shadow" data-aos="fade-up">
+        <h3 class="text-xl font-semibold mb-2">Antenna Radiation Pattern Visualizer</h3>
+        <p class="text-gray-700">This project is a Python-based GUI application that allows users to select and visualize radiation patterns of different types of antennas including Isotropic, Dipole, Cardioid, and Parabolic. It uses Tkinter for the user interface and Matplotlib for generating real-time polar plots. The user can select one or more antenna types, and the corresponding radiation patterns are displayed side by side for easy comparison.</p>
+        <a href="https://ibb.co/5WVzSDfZ" target="_blank">
+          <img src="https://ibb.co/5WVzSDfZ" alt="Antenna Radiation pattern Visualizer" class="mt-4 rounded shadow">
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center" data-aos="fade-up">Contact Me</h2>
+    <form class="space-y-4" data-aos="fade-up" data-aos-delay="100">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg" />
+      <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg" />
+      <textarea placeholder="Your Message" rows="5" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700">Send Message</button>
+    </form>
+  </section>
+
+   <footer class="bg-gradient-to-r from-purple-800 to-indigo-800 text-white py-6 text-center" data-aos="fade-in">
+    <p>© 2025 Trisha Dutta. All rights reserved.</p>
+    <div class="mt-3 space-x-4">
+      <a href="https://www.linkedin.com/in/trisha-dutta-a24768284?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuRTNGrzjTx6%2F2OjQEnwbvw%3D%3D" target="_blank" class="hover:text-yellow-300 transition">LinkedIn</a>
+      <a href="mailto:trishad257@gmail.com" class="hover:text-yellow-300 transition">Email</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+  <script>
+    const phrases = ["Frontend Developer", "Electronics Engineer", "UI/UX Enthusiast", "Python Learner"];
+    let currentPhrase = 0, currentLetter = 0;
+    const el = document.getElementById("typewriter");
+    function type() {
+      if (currentLetter <= phrases[currentPhrase].length) {
+        el.innerText = phrases[currentPhrase].substring(0, currentLetter++);
+        setTimeout(type, 100);
+      } else {
+        setTimeout(erase, 2000);
+      }
+    }
+    function erase() {
+      if (currentLetter > 0) {
+        el.innerText = phrases[currentPhrase].substring(0, --currentLetter);
+        setTimeout(erase, 50);
+      } else {
+        currentPhrase = (currentPhrase + 1) % phrases.length;
+        setTimeout(type, 500);
+      }
+    }
+    type();
+  </script>
+</body>
+</html>
