@@ -1,2 +1,2 @@
 # Trisha dutta portfolio 
- My official portfolio
+ Building this portfolio was a valuable learning experience where I combined HTML and Tailwind CSS to create a responsive, clean, and professional personal website. It helped me deepen my understanding of utility-first CSS frameworks and modern web design practices. I focused on crafting a minimalist layout with intuitive navigation, dynamic elements like typing effects, and well-structured sections such as About Me, Projects, and Contact. This project not only strengthened my front-end development skills but also taught me the importance of user experience, consistent design, and mobile-first responsiveness. I'm proud to showcase this as part of my developer journey!
